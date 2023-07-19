@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     width: 400px;
-    padding: 15px;
+    padding: 15px 25px;
+    border-radius: 25px;
+    background-color: rgb(33, 181, 119);
     .profile__img {
         width: 100%;
         img{
@@ -13,6 +15,47 @@
 
     
     .profile__info {
-        background-color: red;
+        .profile__info-header{
+            display: flex;
+            align-items: center;
+            .chess-img{
+                width: 35px;
+                height: 35px;
+                border-radius: 5px;
+            }
+            .gamer__container{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                .gamer__name{}
+                .gamer__about{
+                    display: flex;
+                    gap: 10px;
+                    .gamer__from {
+                        width: 10px;
+                        height: 10px;
+                    }
+                    .gamer__rating {}
+                
+                    .gamer__time-zone {}}
+            }
+            .network {}
+        }
+
+        .profile__info-footer{
+            display: flex;
+            justify-content: space-between;
+            .time{
+                padding: 5px 60px;
+                border-radius: 15px;
+                background-color: rgb(71, 70, 70);
+                font-size: 36px;
+                color: rgb(230, 215, 215);
+            }
+            .shape-color{
+                font-size: 45px;
+            }
+        }
     }
 }
