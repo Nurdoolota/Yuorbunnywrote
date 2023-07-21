@@ -1,15 +1,15 @@
 .profile{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    padding: 15px 25px;
-    border-radius: 25px;
-    background-color: rgb(33, 181, 119);
+    width: 260px;
+    padding: 12px;
+    border-radius: 5px;
+    background-color: #1e586c;
     .profile__img {
         width: 100%;
         img{
             width: 100%;
-            border-radius: 15px;
+            border-radius: 5px;
         }
     }
 
@@ -17,17 +17,17 @@
     .profile__info {
         .profile__info-header{
             display: flex;
-            align-items: center;
+            font-size: 18px;
+            // justify-content: flex-start;
+            // align-items: center;
             .chess-img{
-                width: 35px;
-                height: 35px;
+                width: 43px;
+                height: 43px;
                 border-radius: 5px;
             }
             .gamer__container{
                 display: flex;
                 flex-direction: column;
-                justify-content: center;
-                align-items: center;
                 .gamer__name{}
                 .gamer__about{
                     display: flex;
@@ -38,19 +38,28 @@
                     }
                     .gamer__rating {}
                 
-                    .gamer__time-zone {}}
+                    .gamer__time-zone {}
+                }
+
             }
-            .network {}
+            .gamer__network {
+                // justify-items: flex-end;
+            }
+            
         }
 
         .profile__info-footer{
             display: flex;
             justify-content: space-between;
+            align-items: center;
+            margin: 0;
             .time{
-                padding: 5px 60px;
-                border-radius: 15px;
+                align-items: center;
+                padding: 0 30px;
+                font-size: 30px;
+                border-radius: 5px;
+                border: 1px solid white;
                 background-color: rgb(71, 70, 70);
-                font-size: 36px;
                 color: rgb(230, 215, 215);
             }
             .shape-color{

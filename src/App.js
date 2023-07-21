@@ -1,11 +1,22 @@
 import logo from './logo.svg'
-import './App.css'
-import ProfileGamer from './components/ProfileGamer'
+import './App.scss'
+import ProfileGamer from './components/ProfileGamer/ProfileGamer'
+import Tourney from './components/Tourney/Tourney'
+import TourneyMonth from './components/TourneyMonth/TourneyMonth'
+
 
 function App() {
     return (
         <div className="App">
-            <ProfileGamer />
+            <div className='aboutgame__wrapper'>
+                <ProfileGamer />
+                <Tourney />
+                <TourneyMonth/>
+                <ProfileGamer />
+            </div>
+            <div className='hahaha'>
+                
+            </div>
         </div>
     )
 }
